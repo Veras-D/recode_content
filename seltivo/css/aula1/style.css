@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#id_p_red {
+    color: red;
+}
+
+.classe_p_green {
+    color: green;
+}
+
+.mudando_p_em_div p {
+    color: purple;
+}
