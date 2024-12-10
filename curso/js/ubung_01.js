@@ -2,13 +2,13 @@ let notasAprovado = [8, 7, 9];
 let notasReprovado = [5, 4, 3]; 
 
 function getMean(notas){
-    mean = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
+    let mean = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
     return mean;
 }
 
 
 function aprovadoOuNao(notas){
-    let mean = getMean(notas)
+    let mean = getMean(notas);
 
     return mean >= 6;
 }
@@ -22,4 +22,4 @@ function exibir(notas){
     }
 }
 
-exibir(notasReprovado)
+exibir(notasReprovado);
