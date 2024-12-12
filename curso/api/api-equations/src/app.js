@@ -1,6 +1,6 @@
-const express = requere('express');
-const bodyParser = requere('body-parser');
-const equationsRoutes = requere('./routes/equationRoutes');
+const express = require('express');
+const bodyParser = require('body-parser');
+const equationRoutes = require('./routers/equationRoutes');
 
 const app = express();
 const port = 8080;
