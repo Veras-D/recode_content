@@ -6,12 +6,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>tailwind</title>
 </head>
-<body>
+<body class="space-y-4">
     <h1>Card</h1>
-    <div class="bg-yellow-300 px-4 py-8 mx-auto container mb-2">
+    <div class="bg-yellow-100 px-4 py-8 mx-auto container mb-2">
         <h6 class="font-bold">Card</h6>
         <div class="bg-yellow-50 shadow-lg p-4 rounded-lg overflow-hidden">
-            <div class="w-full bg-yellow-100 p-4 border-b border-yellow rounded-t">
+            <div class="w-full bg-yellow-100 p-4 border-b border-gray-100 rounded-t">
                 <h4 class="font-bold">Title Card</h4>
             </div>
 
@@ -24,8 +24,116 @@
             </div>
         </div>
     </div>
+
     <h1>Button</h1>
-    <h1>Card</h1>
-    <h1>Card</h1>
+    <div class="container bg-green-300 px-4 py-8 mx-auto mb-2">
+        <h6 class="font-bold mb-2">Button</h6>
+        <button class="px-4 py-1 bg-blue-500 rounded m-2 hover:bg-blue-600 text-white">
+            Save
+        </button>
+    </div>
+
+    <h1>Badge</h1>
+    <div class="container bg-purple-100 px-4 py-8 mx-auto mb-2">
+        <h6 class="font-bold">Badge</h6>
+        <div class="inline-flex item-center bg-green-200 text-sm px-1.5 py-0.5 rounded-md text-green-800 text-medium">
+            online
+        </div>
+        <div class="inline-flex item-center bg-red-200 text-sm px-1.5 py-0.5 rounded-md text-red-800 text-medium">
+            offline
+        </div>
+        <div class="inline-flex item-center bg-yellow-100 text-sm px-1.5 py-0.5 rounded-md text-yellow-700 text-medium">
+            bloked
+        </div>
+    </div>
+
+    <h1>Input</h1>
+    <div class="container bg-blue-200 px-4 py-8 mx-auto mb-2 space-y-4">
+        <h6 class="font-bold">Input</h6>
+        <input 
+            type="text"
+            placeholder="placeholder"
+            class="w-full bg-gray-50 border border-gray-200 focus:border-blue-400 px-2 py-1 text-sm text-gray-800 rounded placeholder-gray-300 focus:outline-none focus:ring-2"
+        >
+        <input 
+            type="text"
+            placeholder="placeholder"
+            class="w-full bg-gray-50 border border-gray-200 focus:border-blue-400 px-2 py-1 text-sm text-gray-800 rounded placeholder-gray-300 focus:outline-none focus:ring-2"
+        >
+        <input 
+            type="text"
+            placeholder="placeholder"
+            class="w-full bg-gray-50 border border-gray-200 focus:border-blue-400 px-2 py-1 text-sm text-gray-800 rounded placeholder-gray-300 focus:outline-none focus:ring-2"
+        >
+    </div>
+
+    <h1>DropDown</h1>
+    <div class="container px-4 py-8 mx-auto bg-gray-800 mb-2">
+        <h6 class="text-white font-bold">DropDown</h6>
+        <div class="relative inline-block mt-4">
+            <button
+              id="dropdownButton"
+              class="flex items-center bg-gray-50 border border-gray-200 focus:border-blue-400 px-2 py-1 text-sm text-gray-800 rounded placeholder-gray-300 focus:outline-none focus:ring-2 shadow-md shadow-gray-500/50"
+              onclick="toggleDropdown()"
+            >
+              Button
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 ml-1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+          
+            <div
+              id="dropdownMenu"
+              class="hidden absolute z-10 mt-2 bg-white border border-gray-200 shadow-md shadow-gray-500/50 rounded-md"
+            >
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
+                >Link 1</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
+                >Link 2</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
+                >Link 3</a
+              >
+            </div>
+          </div>
+          
+          <script>
+            function toggleDropdown() {
+              const menu = document.getElementById('dropdownMenu');
+              menu.classList.toggle('hidden');
+            }
+          
+            // Optional: Close dropdown when clicking outside
+            window.addEventListener('click', (e) => {
+              const button = document.getElementById('dropdownButton');
+              const menu = document.getElementById('dropdownMenu');
+              if (!button.contains(e.target) && !menu.contains(e.target)) {
+                menu.classList.add('hidden');
+              }
+            });
+          </script>          
+    </div>
+
+    <h1>Links</h1>
+    <a href="login.html" class="text-blue-500 underline block">Login</a>
+    <a href="site.html" class="text-blue-500 underline">site</a>
 </body>
 </html>
