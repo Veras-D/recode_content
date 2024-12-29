@@ -10,6 +10,8 @@ public class App {
         int numTest = scanner.nextInt();
         System.out.println("The number is: " + numTest);
 
+        
+
         /* 
          * calculator(a, b, operator)
          * função validar a, b
