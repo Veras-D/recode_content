@@ -6,7 +6,64 @@
     <title>Hotel</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50">
+    <header>
+        <div class="container mx-auto py-4 h-24 flex items-center">
+            <div class="font-bold text-xl font-black pl-4">
+                LOGO
+            </div>
+
+            <nav class="ml-auto">
+                <ul class="flex">
+                    <li class="mr-6">
+                        <a href="#" class="text-gray-700 hover:text-gray-900 hover:underline">Services</a>
+                    </li>
+                    <li class="mr-6">
+                        <a href="#" class="text-gray-700 hover:text-gray-900 hover:underline">About</a>
+                    </li>
+                    <li class="mr-6">
+                        <a href="#" class="text-gray-700 hover:text-gray-900 hover:underline">Information</a>
+                    </li>
+                    <li class="mr-6">
+                        <a href="#" class="text-gray-700 hover:text-gray-900 hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
+    <section style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/hero.jpeg); background-size: cover; background-position: center; height: 48vh; color: white;">
+        <div class="container mx-auto px-4 h-full flex items-center justify-center">
+            <div>
+                <div>
+                    <h1 class="text-3xl font-bold text-green-200 mb-1">
+                        Welcome to our hotel!
+                    </h1>
+                    <p class="text-green-100">
+                        We provide unparalleled service at our hotel. Book now and enjoy your stay.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <form class="flex justify-center space-x-4">
+                        <select class="bg-gray-50 text-gray-500 rounded">
+                            <option value="">Choice a State</option>
+                            <option value="">Texas</option>
+                            <option value="">California</option>
+                            <option value="">Florida</option>
+                        </select>
+                        <select class="bg-gray-50 text-gray-500 rounded">
+                            <option value="">Choice a City</option>
+                            <option value="">New York City</option>
+                            <option value="">Los Angeles</option>
+                            <option value="">Chicago</option>
+                        </select>
+                        <button class="px-4 py-2 text-white bg-green-500 rounded hover:bg-green-600">
+                            Book Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
