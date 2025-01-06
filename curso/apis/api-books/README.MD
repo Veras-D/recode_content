@@ -1,7 +1,3 @@
-Here’s a simple README file for your project:
-
----
-
 # Book Management API  
 
 ## Description  
