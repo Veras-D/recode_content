@@ -3,7 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
-createRoot(document.getElementById('root')!).render(
+const rootElement: HTMLElement = document.getElementById('root')!;
+
+createRoot(rootElement).render(
   <StrictMode>
     <App />
   </StrictMode>,
