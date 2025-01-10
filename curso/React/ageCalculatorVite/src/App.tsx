@@ -1,13 +1,10 @@
-import { useState } from 'react'
-// import './App.css'
+import SayHello from './components/SayHello';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <main>
       <div>
-        <h1>Testing</h1>
+        <SayHello name="Vivi" />
       </div>
     </main>
   )
