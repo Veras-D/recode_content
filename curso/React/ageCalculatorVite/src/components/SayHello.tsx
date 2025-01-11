@@ -1,8 +1,11 @@
+import React from "react";
+
+
 interface SayHelloProps {
     name: string;
 }
 
-const SayHello: React.FC<SayHelloProps> = ({name}) => {
+const SayHello: React.FC<SayHelloProps> = ({ name= "User" }) => {
     const dateNow: number = new Date().getHours();
 
     const getGreeting = (): string => {
