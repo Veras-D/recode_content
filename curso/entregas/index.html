@@ -7,24 +7,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style/style.css">
-
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient pt-4">
         <div class="container">
-            <!-- Logo com ícone -->
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe me-2" viewBox="0 0 16 16">
-                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-6.74 4.79c.18.26.39.51.61.73A4.99 4.99 0 0 0 5 8a4.99 4.99 0 0 0-2.13 1.48c-.22.22-.43.47-.61.73A7 7 0 0 0 8 15a7 7 0 0 0 6.74-4.79 10.87 10.87 0 0 0-.61-.73A4.99 4.99 0 0 0 11 8c.78 0 1.5.23 2.13.48.22.22.43.47.61.73A7 7 0 0 0 8 1zm4.44 9.56a4.99 4.99 0 0 0-1.07-.67 5.003 5.003 0 0 0 0-3.78 4.99 4.99 0 0 0 1.07-.67A6.993 6.993 0 0 0 13 8c0 .78-.23 1.5-.56 2.13zm-8.88 0A6.993 6.993 0 0 1 3 8c0-.78.23-1.5.56-2.13.22.22.43.47.61.73.68 1.36.68 3.15 0 4.52-.18.26-.39.51-.61.73zM6 10.6a4.995 4.995 0 0 0 4 0c.39-.8.61-1.75.61-2.6s-.22-1.8-.61-2.6a4.995 4.995 0 0 0-4 0c-.39.8-.61 1.75-.61 2.6s.22 1.8.61 2.6z"/>
-                </svg>
+            <!-- Logo with icon -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/logo.svg" alt="Globe Icon" width="30" height="30">
                 Dream Travel
             </a>
-            <!-- Botão responsivo -->
+            <!-- Responsive button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Links do menu -->
+            <!-- Menu links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item">
@@ -45,41 +43,41 @@
     <!-- Hero Section -->
     <header class="text-center py-5">
         <div class="container">
-            <h1>Explore o mundo com a Dream Travel</h1>
-            <p class="lead">Descubra destinos incríveis e crie memórias inesquecíveis.</p>
-            <a href="#packages" class="btn btn-custom btn-lg">Confira nossos pacotes</a>
+            <h1>Explore the world with Dream Travel</h1>
+            <p class="lead">Discover incredible destinations and create unforgettable memories.</p>
+            <a href="#packages" class="btn btn-custom btn-lg">Check out our packages</a>
         </div>
     </header>
 
     <!-- Destinations Section -->
-    <section id="destinations" class="py-5">
+    <section id="destinations" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-4">Destinos Populares</h2>
-            <div class="row">
+            <h2 class="text-center mb-4 text-secondary">Popular Destinations</h2>
+            <div class="row row-gap-3">
                 <div class="col-md-4">
-                    <div class="card bg-dark text-light destination-card">
-                        <img src="https://source.unsplash.com/400x300/?beach" class="card-img-top" alt="Praia">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://mangojourneys.com/en/wp-content/uploads/2015/05/950x475-bigstock-Two-beach-lounge-chairs-under-68994418-400x300.jpg" class="card-img-top" alt="Beach">
                         <div class="card-body">
-                            <h5 class="card-title">Praias Tropicais</h5>
-                            <p class="card-text">Relaxe em praias paradisíacas com areia branca e águas cristalinas.</p>
+                            <h5 class="card-title">Tropical Beaches</h5>
+                            <p class="card-text">Enjoy a tropical paradise with crystal clear waters and white sands. Perfect to relax and reconnect with nature.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-dark text-light destination-card">
-                        <img src="https://source.unsplash.com/400x300/?mountains" class="card-img-top" alt="Montanhas">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://alaska-highway.org/wp-content/uploads/2016/12/mthayes.jpg" class="card-img-top" alt="Mountains">
                         <div class="card-body">
-                            <h5 class="card-title">Montanhas</h5>
-                            <p class="card-text">Aventuras nas montanhas mais lindas do mundo.</p>
+                            <h5 class="card-title">Mountains</h5>
+                            <p class="card-text">Explore incredible trails and live adventures in the mountains. Ideal for ecotourism and adrenaline lovers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-dark text-light destination-card">
-                        <img src="https://source.unsplash.com/400x300/?city" class="card-img-top" alt="Cidades">
+                    <div class="card bg-secondary text-light destination-card destino-card h-100">
+                        <img src="https://caminhodafe.com.br/ptbr/wp-content/uploads/2021/03/8-400x300.jpg" class="card-img-top" alt="Cities">
                         <div class="card-body">
-                            <h5 class="card-title">Cidades Icônicas</h5>
-                            <p class="card-text">Explore as cidades mais famosas e vibrantes do planeta.</p>
+                            <h5 class="card-title">Iconic Cities</h5>
+                            <p class="card-text">Immerse yourself in the culture and gastronomy of a modern city. Leisure, art, and fun await you!</p>
                         </div>
                     </div>
                 </div>
@@ -90,23 +88,23 @@
     <!-- Packages Section -->
     <section id="packages" class="py-5 mb-5">
         <div class="container">
-            <h2 class="text-center mb-4">Pacotes Especiais</h2>
-            <div class="row">
+            <h2 class="text-center mb-4">Special Packages</h2>
+            <div class="row row-gap-3">
                 <div class="col-md-6">
                     <div class="card bg-dark text-light">
                         <div class="card-body">
-                            <h5 class="card-title">Pacote Romântico</h5>
-                            <p class="card-text">Experiências perfeitas para casais em lugares deslumbrantes.</p>
-                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                            <h5 class="card-title">Romantic Package</h5>
+                            <p class="card-text">Perfect experiences for couples in stunning places.</p>
+                            <a href="#" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card bg-dark text-light">
                         <div class="card-body">
-                            <h5 class="card-title">Pacote Família</h5>
-                            <p class="card-text">Diversão garantida para toda a família em destinos únicos.</p>
-                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                            <h5 class="card-title">Family Package</h5>
+                            <p class="card-text">Guaranteed fun for the whole family in unique destinations.</p>
+                            <a href="#" class="btn btn-custom">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +114,7 @@
 
     <footer class="py-3 text-center">
         <div class="container">
-            <p>&copy; 2025 Dream Travel Agency. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Dream Travel Agency. All rights reserved.</p>
         </div>
     </footer>
 
