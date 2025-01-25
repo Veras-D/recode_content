@@ -1,26 +1,20 @@
-package src;
-import java.util.Scanner;
+package src
+
+import src.calculator.Calculator;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("It is funny xD");
+        Calculator calculator = new Calculator("Advanced Calculator");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int numTest = scanner.nextInt();
-        System.out.println("The number is: " + numTest);
+        float num1 = 0.5f;
+        float num2 = 2.5f;
+        String operator = "/";
 
-        
-
-        /* 
-         * calculator(a, b, operator)
-         * função validar a, b
-         * sum
-         * sub
-         * mul
-         * div
-         * rad
-         * pot
-        */
+        try {
+            float result = calculator.calculate(num1, num2, operator);
+            System.out.println("Result: " + result);
+        } catch (IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+        }
     }
 }
