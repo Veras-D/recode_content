@@ -1,14 +1,23 @@
-package src.calculator;
+package calculator;
 
 import java.util.Set;
 
 public class Calculator {
-    private String name;
+    private String nameCalculator;
     
 
     public Calculator(String name) {
-        this.name = name;
+        this.nameCalculator = name;
         System.out.println("Calculator \"" + name + "\" has been initialized.");
+    }
+
+    public String getName() {
+        return nameCalculator;
+    }
+
+    public String setName(String name) {
+        this.nameCalculator = name;
+        return "Calculator \"" + name + "\" has been updated.";
     }
 
     public float addition(float x, float y) {
