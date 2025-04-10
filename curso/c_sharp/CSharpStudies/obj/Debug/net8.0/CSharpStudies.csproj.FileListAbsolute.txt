@@ -1,0 +1,15 @@
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/bin/Debug/net8.0/CSharpStudies
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/bin/Debug/net8.0/CSharpStudies.deps.json
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/bin/Debug/net8.0/CSharpStudies.runtimeconfig.json
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/bin/Debug/net8.0/CSharpStudies.dll
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/bin/Debug/net8.0/CSharpStudies.pdb
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.GeneratedMSBuildEditorConfig.editorconfig
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.AssemblyInfoInputs.cache
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.AssemblyInfo.cs
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.csproj.CoreCompileInputs.cache
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.sourcelink.json
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.dll
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/refint/CSharpStudies.dll
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.pdb
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/CSharpStudies.genruntimeconfig.cache
+/home/veras/Veras/scripts/recode/curso/c_sharp/CSharpStudies/obj/Debug/net8.0/ref/CSharpStudies.dll
