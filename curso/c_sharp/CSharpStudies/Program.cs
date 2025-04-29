@@ -113,11 +113,15 @@ class Program
 
 
         ConsoleLogger logger = new();
-        BankAccount account = new("vivi", 1000m, logger);
+        BankAccount account = new("Vivi", 1000m, logger);
 
         account.Deposit(200m);
         account.Withdraw(500m);
-        Console.WriteLine($"{account.Owner} has ${account.Balance}");
+        Console.WriteLine($"{account.Owner} has {account.Balance:c}");
+        // account.Withdraw(800m);
 
+        BankAccount account2 = new("Rady", 100m, logger);
+
+        account.Tranfer(account2, 500m);   
     }
 }
